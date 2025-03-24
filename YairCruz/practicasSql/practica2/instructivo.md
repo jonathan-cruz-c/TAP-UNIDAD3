@@ -1,6 +1,6 @@
 # DESAFÍO: Análisis de Entidades y Creación de una Base de Datos
 
-La actividad consiste en crear una base de datos por lo cual hay que identificar y dos entidades y describir el tipo de relación que comparten para definir los atributos de cada entidad como tambien las claves primarias y las foraneas si es que las hay de cada entidad(tabla). Despues se procede a crear todo en PostgreSQL y desarrollar un instructivo del paso a paso.
+La actividad consiste en crear una base de datos por lo cual hay que identificar dos entidades y describir el tipo de relación que comparten para definir los atributos de cada entidad como tambien las claves primarias y las foraneas, si es que las hay de cada entidad(tabla). Despues se procede a crear todo en PostgreSQL y desarrollar un instructivo del paso a paso.
 
 ## Entidades seleccionadas
 **Profesor y Curso**
@@ -41,6 +41,7 @@ Uno a muchos (**1:N**), donde un profesor puede impartir varios cursos, pero cad
    ```sql
    create database "AcademiaDB";
    ```
+   ![Crear base de datos](01 Crear base de datos.png)
 
 3. Nos pasamos a la base de datos creada en el paso anterior.
 
